@@ -1,0 +1,24 @@
+# Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Python
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/saved_models/*
+!backend/saved_models/.gitkeep
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
